@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="monoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181B" />
+      <stop offset="100%" stop-color="#09090B" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="128" height="128" rx="28" fill="url(#monoGrad)" />
+  <!-- Subtle Inner Border -->
+  <rect x="4" y="4" width="120" height="120" rx="24" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="1.5" />
+  <!-- Code brackets subtle minimalist accent -->
+  <path d="M 24 52 L 16 64 L 24 76" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 104 52 L 112 64 L 104 76" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- VP Monogram Text in Bold Geometric Display -->
+  <text x="64" y="78" font-family="'Syne', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="-2">
+    VP
+  </text>
+  <!-- Minimalist White Dot -->
+  <circle cx="89" cy="50" r="4.5" fill="#FFFFFF" />
+</svg>
